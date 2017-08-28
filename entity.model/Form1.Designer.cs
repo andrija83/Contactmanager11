@@ -55,6 +55,10 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.propertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,10 +67,6 @@
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactTypeBindingSource)).BeginInit();
@@ -304,6 +304,23 @@
             // 
             this.columnHeader3.Text = "LastModified";
             // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Size";
+            this.columnHeader4.Width = 68;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Number of Files";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Creation Time";
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Last Access";
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
@@ -344,23 +361,6 @@
             this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList2.Images.SetKeyName(0, "folder-icon-512x512.png");
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Size";
-            this.columnHeader4.Width = 68;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Number of Files";
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Creation Time";
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Last Access";
             // 
             // Form1
             // 
